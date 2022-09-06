@@ -1,0 +1,32 @@
+body {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(103, 103, 103);
+}
+.my-label {
+  display: inline;
+}
+.my-radio {
+  display: inline;
+}
+#profile {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+#pro-img {
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px rgb(156, 64, 64);
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+  background-color: rgb(66, 66, 66);
+  color: aliceblue;
+}
